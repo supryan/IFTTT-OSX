@@ -28,9 +28,9 @@ Examples
 
 Here are a few examples of what you could do with these bundled apps.
 
-<strong>Automatic (Driving Assistant)</strong><br>
-Parking Location Reminder<br>
-<i>Included in Release: Yes</i><br>
+<h4><i>Automatic (Driving Assistant)</i></h4>
+<i>Parking Location Reminder</i>
+Included in Release: <a href="#">Yes</a><br>
 <ul>
 <li>IFTTT Receipe:</li>
 <li>Hazel rules:</li>
