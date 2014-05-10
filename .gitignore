@@ -1,2 +1,6 @@
-Automatic\ Notifier/build
-Automatic\ Notifier/Products
+.*.sw?
+.DS_Store
+DerivedData
+xcuserdata
+*/build
+*/Products
