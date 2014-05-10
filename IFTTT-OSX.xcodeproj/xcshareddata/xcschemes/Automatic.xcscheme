@@ -17,7 +17,7 @@
                BlueprintIdentifier = "207F821D191E049C00F05A03"
                BuildableName = "Automatic.app"
                BlueprintName = "Automatic"
-               ReferencedContainer = "container:Automatic Notifier.xcodeproj">
+               ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20F44724191ED4AD00376455"
+               BuildableName = "StarbucksTests.xctest"
+               BlueprintName = "StarbucksTests"
+               ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -35,7 +45,7 @@
             BlueprintIdentifier = "207F821D191E049C00F05A03"
             BuildableName = "Automatic.app"
             BlueprintName = "Automatic"
-            ReferencedContainer = "container:Automatic Notifier.xcodeproj">
+            ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +64,7 @@
             BlueprintIdentifier = "207F821D191E049C00F05A03"
             BuildableName = "Automatic.app"
             BlueprintName = "Automatic"
-            ReferencedContainer = "container:Automatic Notifier.xcodeproj">
+            ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +82,7 @@
             BlueprintIdentifier = "207F821D191E049C00F05A03"
             BuildableName = "Automatic.app"
             BlueprintName = "Automatic"
-            ReferencedContainer = "container:Automatic Notifier.xcodeproj">
+            ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
