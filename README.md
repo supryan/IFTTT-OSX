@@ -21,7 +21,7 @@ These are some of the apps I included as releases. Feel free to make your own wi
 Installation
 ============
 
-Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: <pre><code>/Library/ScriptingAdditions/</code></pre><strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper!</strong>
+Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: <pre><code>/Library/ScriptingAdditions/</code></pre><strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>
 
 Examples
 ============
