@@ -21,15 +21,15 @@ These are some of the apps I included as releases. Feel free to make your own wi
 Installation
 ============
 
-Download. Don't forget to code-sign or they will not run under GateKeeper.
+Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: <pre><code>/Library/ScriptingAdditions/</code></pre>.<strong>Don't forget to code-sign the releases or they will not run under GateKeeper!</strong>
 
 Examples
 ============
 
 Here are a few examples of what you could do with these bundled apps.
 
-<h4><i>Automatic (Driving Assistant)</i></h4>
-<i>Parking Location Reminder</i>
+<strong><i>Automatic (Driving Assistant)</i></strong><br>
+<i>Parking Location Reminder</i><br>
 Included in Release: <a href="#">Yes</a><br>
 <ul>
 <li>IFTTT Receipe:</li>
@@ -37,6 +37,8 @@ Included in Release: <a href="#">Yes</a><br>
 <li>Shell script:</li>
 <pre><code>/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
 </ul>
+------------
+
 
 Copyright
 ============
