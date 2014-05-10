@@ -42,3 +42,5 @@ Included in Release: <a href="#">Yes</a><br>
 
 Copyright
 ============
+
+Coming soon. Basically, I didn't design any of the icons or write any of the code besides the shell scripts and Hazel rules. Therefore, I can't go to jail.
