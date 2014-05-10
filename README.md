@@ -32,13 +32,31 @@ Here are a few examples of what you could do with these bundled apps.
 <i>Parking Location Reminder</i><br>
 Released: <a href="#">Yes</a><br>
 <ul>
-<li>IFTTT Receipe:</li>
+<li>IFTTT Recipe:</li>
+</ul>
+| Automatic | Dropbox |
+| ------------- | ------------- |
+| Ignition Off | Download file from URL |
+<a href="#">View shared receipe on IFTTT</a>
+<ul>
 <li>Hazel rules:</li>
-<li>Shell script:</li>
+</ul>
+| Conditions (All) | | |
+| ------------- | ------------- | -------------- |
+| Name | starts with | "parking_location" |
+| Kind | is | image |
+| Date Last Matched | is blank | |
+
+| Actions | | |
+| ------------- | ------------- | -------------- |
+| Name | starts with | "parking_location" |
+| Kind | is | image |
+<ul>
+<li>Shell script:
 <pre><code>/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
+</li>
 </ul>
 ------------
-
 
 Copyright
 ============
