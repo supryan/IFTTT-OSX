@@ -8,10 +8,17 @@ Shoutouts
 
 I wrote this various scripts for use with <a href="https://github.com/alloy/terminal-notifier">Terminal Notifier by alloy</a>, so thanks for that. I also combined some automated tasks with IFTTT and Dropbox using  <a href="https://github.com/alloy/terminal-notifier">Hazel by Noodlesoft</a>.
 
+App Releases
+============
+<ol>
+<li>Automatic</li>
+<li>Starbucks</li>
+</ol>
+
 Installation
 ============
 
-More coming soon. Don't forget to code-sign or they will not run under GateKeeper.
+Download. Don't forget to code-sign or they will not run under GateKeeper.
 
 Examples
 ============
@@ -25,9 +32,7 @@ Parking Location Reminder<br>
 <li>IFTTT Receipe:</li>
 <li>Hazel rules:</li>
 <li>Shell script:</li>
-<pre><code>
-/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'
-</code></pre>
+<pre><code>/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
 </ul>
 
 Copyright
