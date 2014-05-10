@@ -11,8 +11,8 @@ I wrote this various scripts for use with <a href="https://github.com/alloy/term
 App Releases
 ============
 <ol>
-<li>Automatic</li>
-<li>Starbucks</li>
+<li><a href="http://www.automatic.com">Automatic (Driving Assistant)</a></li>
+<li><a href="http://www.starbucks.com">Starbucks</a></li>
 </ol>
 
 Installation
