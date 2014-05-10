@@ -1,6 +1,6 @@
 .*.sw?
 .DS_Store
 DerivedData
-*/xcuserdata
-*/build
-*/Products
+**/xcuserdata
+**/build
+**/Products
