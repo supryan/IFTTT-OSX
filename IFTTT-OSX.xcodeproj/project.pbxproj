@@ -14,18 +14,18 @@
 		207F822B191E049C00F05A03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 207F8229191E049C00F05A03 /* Credits.rtf */; };
 		207F822E191E049C00F05A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F822D191E049C00F05A03 /* AppDelegate.m */; };
 		207F824C191E04BF00F05A03 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
-		207F824D191E04C700F05A03 /* automatic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20492CF9191DDFA700EB422C /* automatic.icns */; };
 		20F4470C191ED4AD00376455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
 		20F44712191ED4AD00376455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20F44710191ED4AD00376455 /* InfoPlist.strings */; };
 		20F44714191ED4AD00376455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F44713191ED4AD00376455 /* main.m */; };
 		20F44718191ED4AD00376455 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20F44716191ED4AD00376455 /* Credits.rtf */; };
 		20F4471B191ED4AD00376455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F4471A191ED4AD00376455 /* AppDelegate.m */; };
-		20F4471E191ED4AD00376455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F4471C191ED4AD00376455 /* MainMenu.xib */; };
-		20F44720191ED4AD00376455 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F4471F191ED4AD00376455 /* Images.xcassets */; };
+		20F4473C191ED84C00376455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F4473B191ED84C00376455 /* MainMenu.xib */; };
+		20F44740191ED94300376455 /* automatic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20F4473F191ED94300376455 /* automatic.icns */; };
+		20F44742191ED95B00376455 /* starbucks.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20F44741191ED95B00376455 /* starbucks.icns */; };
+		20F44743191ED9F100376455 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20492CF9191DDFA700EB422C /* automatic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = automatic.icns; sourceTree = "<group>"; };
 		2071810A191EBED000B685E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		207F821E191E049C00F05A03 /* Automatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207F8222191E049C00F05A03 /* Automatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Automatic-Info.plist"; sourceTree = "<group>"; };
@@ -43,8 +43,9 @@
 		20F44717191ED4AD00376455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		20F44719191ED4AD00376455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20F4471A191ED4AD00376455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20F4471D191ED4AD00376455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		20F4471F191ED4AD00376455 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20F4473B191ED84C00376455 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		20F4473F191ED94300376455 /* automatic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = automatic.icns; sourceTree = "<group>"; };
+		20F44741191ED95B00376455 /* starbucks.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = starbucks.icns; sourceTree = "<group>"; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F44743191ED9F100376455 /* ScriptingBridge.framework in Frameworks */,
 				20F4470C191ED4AD00376455 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,10 +101,9 @@
 		20F4470D191ED4AD00376455 /* Starbucks */ = {
 			isa = PBXGroup;
 			children = (
+				20F4473B191ED84C00376455 /* MainMenu.xib */,
 				20F44719191ED4AD00376455 /* AppDelegate.h */,
 				20F4471A191ED4AD00376455 /* AppDelegate.m */,
-				20F4471C191ED4AD00376455 /* MainMenu.xib */,
-				20F4471F191ED4AD00376455 /* Images.xcassets */,
 				20F4470E191ED4AD00376455 /* Supporting Files */,
 			);
 			path = Starbucks;
@@ -123,8 +124,9 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
+				20F44741191ED95B00376455 /* starbucks.icns */,
+				20F4473F191ED94300376455 /* automatic.icns */,
 				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
-				20492CF9191DDFA700EB422C /* automatic.icns */,
 				207F8220191E049C00F05A03 /* Automatic */,
 				20F4470D191ED4AD00376455 /* Starbucks */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
@@ -230,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207F824D191E04C700F05A03 /* automatic.icns in Resources */,
+				20F44740191ED94300376455 /* automatic.icns in Resources */,
 				207F8225191E049C00F05A03 /* InfoPlist.strings in Resources */,
 				207F822B191E049C00F05A03 /* Credits.rtf in Resources */,
 				20718109191EBED000B685E3 /* MainMenu.xib in Resources */,
@@ -242,9 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F44712191ED4AD00376455 /* InfoPlist.strings in Resources */,
-				20F44720191ED4AD00376455 /* Images.xcassets in Resources */,
 				20F44718191ED4AD00376455 /* Credits.rtf in Resources */,
-				20F4471E191ED4AD00376455 /* MainMenu.xib in Resources */,
+				20F4473C191ED84C00376455 /* MainMenu.xib in Resources */,
+				20F44742191ED95B00376455 /* starbucks.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +314,6 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		20F4471C191ED4AD00376455 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20F4471D191ED4AD00376455 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -381,7 +375,6 @@
 		20F44733191ED4AD00376455 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -411,7 +404,6 @@
 		20F44734191ED4AD00376455 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
