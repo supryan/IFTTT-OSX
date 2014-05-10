@@ -43,4 +43,4 @@ Included in Release: <a href="#">Yes</a><br>
 Copyright
 ============
 
-Basically, I didn't design any of the icons or write any of the code within these bundled apps besides the shell scripts and Hazel rules. With that said, I can't go to jail. More coming soon.
+Basically, I didn't design any of the icons or write any of the code within these bundled apps besides the shell scripts and Hazel rules. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
