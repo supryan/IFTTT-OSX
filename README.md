@@ -11,7 +11,24 @@ I wrote this various scripts for use with <a href="https://github.com/alloy/term
 Installation
 ============
 
-Coming soon.
+More coming soon. Don't forget to code-sign or they will not run under GateKeeper.
+
+Examples
+============
+
+Here are a few examples of what you could do with these bundled apps.
+
+<strong>Automatic (Driving Assistant)</strong><br>
+Parking Location Reminder<br>
+<i>Included in Release: Yes</i><br>
+<ul>
+<li>IFTTT Receipe:</li>
+<li>Hazel rules:</li>
+<li>Shell script:</li>
+<pre><code>
+/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'
+</code></pre>
+</ul>
 
 Copyright
 ============
