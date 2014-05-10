@@ -19,10 +19,10 @@
 		20F44714191ED4AD00376455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F44713191ED4AD00376455 /* main.m */; };
 		20F44718191ED4AD00376455 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20F44716191ED4AD00376455 /* Credits.rtf */; };
 		20F4471B191ED4AD00376455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F4471A191ED4AD00376455 /* AppDelegate.m */; };
-		20F4473C191ED84C00376455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F4473B191ED84C00376455 /* MainMenu.xib */; };
 		20F44740191ED94300376455 /* automatic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20F4473F191ED94300376455 /* automatic.icns */; };
 		20F44742191ED95B00376455 /* starbucks.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20F44741191ED95B00376455 /* starbucks.icns */; };
 		20F44743191ED9F100376455 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		20F44744191EDB0100376455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F44746191EDB0100376455 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +43,9 @@
 		20F44717191ED4AD00376455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		20F44719191ED4AD00376455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20F4471A191ED4AD00376455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20F4473B191ED84C00376455 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		20F4473F191ED94300376455 /* automatic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = automatic.icns; sourceTree = "<group>"; };
 		20F44741191ED95B00376455 /* starbucks.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = starbucks.icns; sourceTree = "<group>"; };
+		20F44745191EDB0100376455 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,7 @@
 		20F4470D191ED4AD00376455 /* Starbucks */ = {
 			isa = PBXGroup;
 			children = (
-				20F4473B191ED84C00376455 /* MainMenu.xib */,
+				20F44746191EDB0100376455 /* MainMenu.xib */,
 				20F44719191ED4AD00376455 /* AppDelegate.h */,
 				20F4471A191ED4AD00376455 /* AppDelegate.m */,
 				20F4470E191ED4AD00376455 /* Supporting Files */,
@@ -126,7 +126,6 @@
 			children = (
 				20F44741191ED95B00376455 /* starbucks.icns */,
 				20F4473F191ED94300376455 /* automatic.icns */,
-				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
 				207F8220191E049C00F05A03 /* Automatic */,
 				20F4470D191ED4AD00376455 /* Starbucks */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
@@ -146,6 +145,7 @@
 		5199791715B1F92B003AFC57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
 				5199791815B1F92B003AFC57 /* Cocoa.framework */,
 				5199791A15B1F92B003AFC57 /* Other Frameworks */,
 			);
@@ -245,7 +245,7 @@
 			files = (
 				20F44712191ED4AD00376455 /* InfoPlist.strings in Resources */,
 				20F44718191ED4AD00376455 /* Credits.rtf in Resources */,
-				20F4473C191ED84C00376455 /* MainMenu.xib in Resources */,
+				20F44744191EDB0100376455 /* MainMenu.xib in Resources */,
 				20F44742191ED95B00376455 /* starbucks.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +312,14 @@
 				20F44717191ED4AD00376455 /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20F44746191EDB0100376455 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F44745191EDB0100376455 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
