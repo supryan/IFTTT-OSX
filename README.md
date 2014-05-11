@@ -24,12 +24,12 @@ To check your credentials and other executable information, simply do:
 <pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre>
 Next, you're going to want to set up some folder actions. This is what will run the shell script calling the notifications when receiving a file from IFTTT in your Dropbox. I recommend setting this up with <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>, because I pre-built some rules with the shell scripts already included in the releases. However, if you can't use Hazel, OSX has a similiar functionality with Automator and it's own folder actions feature.
 
-Examples
+Example
 ============
 
-<p>Here are a few examples of what you could do with these bundled apps. Complete detailed descriptions and usage examples/ideas are available on the app bundle release page (i.e. Automatic). If for some reason the Hazel rules aren't working for you, I've layed them out so you can set them up manually:</p>
+<p>Here is an example of what you could do with these bundled apps. Complete documentation of usage examples/ideas are available on each app bundle release page (i.e. Automatic). If for some reason the Hazel rules aren't working for you, I've layed them out so you can set them up manually:</p>
 ------------
-<p><strong>1. Parking Location Reminder</strong> | Automatic<br>
+<p><strong>Parking Location Reminder</strong> | Automatic<br>
 <i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>.</i></p>
 ------------
 <ul>
@@ -53,7 +53,7 @@ NOTE: You can download the Google Maps HTML file with 'LocationMapURL' action. T
 <ul>
 <li>Shell script:</li>
 <pre><code>!#/bin/sh
-/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open "file://$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
+/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open "file://$1" -contentImage "$1" -group 'automatic-park'</code></pre>
 </ul>
 ------------
 
