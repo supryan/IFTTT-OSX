@@ -28,7 +28,7 @@ Examples
 
 <p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
 ------------
-<p><strong>Automatic (Driving Assistant)</strong><br>
+<p><h4>Automatic (Driving Assistant)</h4>
 <i>Parking Location Reminder</i></p>
 ------------
 <ul>
