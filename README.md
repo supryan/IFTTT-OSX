@@ -65,7 +65,7 @@ Shoutouts
 <p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
 <i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
 
-Licensing
+License
 ============
 
 Basically, I didn't design any of the icons or write any of the code within these bundled apps. I did, however, resize the app icons for Retina Display, wrote a little extra to the shell scripts calling the notifications, and built the Hazel rules driving the actions from IFTTT. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
