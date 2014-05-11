@@ -30,7 +30,6 @@ Examples
 ------------
 <p><strong>Automatic (Driving Assistant)</strong><br>
 <i>Parking Location Reminder</i><br>
-<a href="#">Release (v1.0)</a></p>
 ------------
 <ul>
 <li>IFTTT Recipe <a href="#">(View shared receipe)</a>:</li>
