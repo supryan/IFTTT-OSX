@@ -6,10 +6,10 @@ What the hell is it? Good question. This isn't exactly new information, but I wa
 Shoutouts
 ============
 
-<p><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier by alloy</a> | INCLUDED<br>
+<p><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> by alloy | INCLUDED<br>
 <i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
-<p><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel by Noodlesoft</a> | NOT REQUIRED (BUT HELPS)<br>
-A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</p>
+<p><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft | NOT REQUIRED (BUT HELPS)<br>
+<i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
 
 App Releases
 ============
