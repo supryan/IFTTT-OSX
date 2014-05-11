@@ -26,19 +26,17 @@ Download a release by selecting one above or create your own app with the Xcode 
 Examples
 ============
 
-Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:<br>
-
+<p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
+------------
 <p><strong>Automatic (Driving Assistant)</strong><br>
 <i>Parking Location Reminder</i><br>
 <a href="#">Release (v1.0)</a></p>
-------------
 <ul>
 <li>IFTTT Recipe <a href="#">(View shared receipe)</a>:</li>
 </ul>
 | Automatic | Dropbox |
 | ------------- | ------------- |
 | Ignition Off | Download file from URL |
-------------
 <ul>
 <li>Hazel rules:</li>
 </ul>
@@ -50,7 +48,6 @@ Here are a few examples of what you could do with these bundled apps. If for som
 | <strong>Actions</strong> | | |
 | Name | starts with | "parking_location" |
 | Kind | is | image |
-------------
 <ul>
 <li>Shell script:
 <pre><code>/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
