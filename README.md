@@ -51,7 +51,7 @@ Examples
 <ul>
 <li>Shell script:</li>
 <pre><code>!#/bin/sh
-/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
+/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open "file://$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
 </ul>
 ------------
 
