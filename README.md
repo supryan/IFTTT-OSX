@@ -26,7 +26,7 @@ Installation
 
 Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: 
 <pre><code>/Library/ScriptingAdditions/</code></pre>
-<strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>. First, you will have to create your own trusted certificate using Keychain Access. Codesign the app like so, where 'jickpictures' is your certificate signature, and then the path to your app:
+<strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>. To do this, you will have to create your own trusted certificate using Keychain Access. Codesign the app like so, where 'jickpictures' is your certificate signature, and then the path to your app:
 <pre><code>codesign -f -s jickpictures /Library/ScriptingAdditions/Application.app</code></pre>
 To check your credentials and other executable information, simply do:
 <pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre>
