@@ -28,8 +28,8 @@ Examples
 
 <p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
 ------------
-<h4>Automatic (Driving Assistant)</h4>
-<p><i>Parking Location Reminder</i></p>
+<h4>1. Parking Location Reminder</h4>
+<p><i>App: Automatic</i></p>
 ------------
 <ul>
 <li>IFTTT Recipe <a href="#">(View shared receipe)</a>:</li>
