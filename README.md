@@ -42,13 +42,11 @@ Released: <a href="#">Yes</a><br>
 <li>Hazel rules:</li>
 </ul>
 | Conditions (All) | | |
-| ------------- | ------------- | -------------- |
+| :------------- | ------------- | -------------- |
 | Name | starts with | "parking_location" |
 | Kind | is | image |
 | Date Last Matched | is blank | |
-
-| Actions | | |
-| ------------- | ------------- | -------------- |
+| <strong>Actions</strong> | | |
 | Name | starts with | "parking_location" |
 | Kind | is | image |
 <ul>
