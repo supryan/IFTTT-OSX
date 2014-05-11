@@ -17,8 +17,8 @@ App Releases
 These are some of the apps I included as releases. Feel free to make your own with  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> or the Xcode Project I included in this repo if you want to build off the others.
 
 <ol>
-<li>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</li>
-<li>Starbucks | <a href="http://www.starbucks.com" target="_blank">Website</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</li>
+<li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
+<li><strong>Starbucks | <a href="http://www.starbucks.com" target="_blank">Website</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
 </ol>
 
 Installation
