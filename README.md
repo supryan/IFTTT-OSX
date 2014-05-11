@@ -1,12 +1,12 @@
 IFTTT-OSX
 ============
 
-What the hell is it? Good question. This isn't exactly new information, but I wanted to create an organized, instructional template illustrating how to build custom notifications for use with OSX Notification Center. To put it simply, I love push notifications. I not only wanted a flow of notifications through iOS with the use of <a href="https://ifttt.com" target="_blank">IFTTT</a> and <a href="https://www.pushover.net" target="_blank">Pushover</a>, but I also wanted to receive these same notifications on OSX as well. I bundled a few apps together using <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> to get OSX notifications of some of my most frequently used apps that did not provide OSX apps to begin with. Therefore, bridging the gap between push notifications on all devices. All this could not be done without the use of IFTTT, Terminal Notifier, Dropbox, and <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>. Shoutouts to the developers of these apps are listed below.
+What the hell is it? Good question. This isn't exactly new information, but I wanted to create an organized, instructional template illustrating how to build custom notifications for use with OSX Notification Center. To put it simply, I love push notifications. I not only wanted a flow of notifications through iOS with the use of <a href="https://ifttt.com" target="_blank">IFTTT</a> and <a href="https://www.pushover.net" target="_blank">Pushover</a>, but I also wanted to receive these same notifications on OSX as well. I bundled a few apps together using the core framework of <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> to get OSX notifications of some of my most frequently used apps not available through OSX. Therefore, IFTTT-OSX is bridging the gap between push notifications across all devices. I want to make this clear that all this could not be done without the use of IFTTT, Terminal Notifier, Dropbox, and <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>. Shoutouts to the developers of these apps are listed below.
 
 Shoutouts
 ============
 
-I wrote this various scripts for use with <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier by alloy</a>, so, thanks for that! I also combined some automated tasks with IFTTT and Dropbox using  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Hazel by Noodlesoft</a>.
+I wrote a few shell scripts for use with <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier by alloy</a>, so, thanks for that! I also combined some automated tasks with IFTTT and Dropbox using  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Hazel by Noodlesoft</a>.
 
 App Releases
 ============
@@ -26,7 +26,7 @@ Download a release by selecting one above or create your own app with the Xcode 
 Examples
 ============
 
-<p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
+<p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't working for you, I've listed them out here:</p>
 ------------
 <p><strong>1. Parking Location Reminder</strong> | Automatic<br>
 <i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image and uses that for the <code>-contentImage</code> and opens the downloaded image using <code>-activate</code>.</i></p>
@@ -50,7 +50,8 @@ Examples
 | Kind | is | image |
 <ul>
 <li>Shell script:</li>
-<pre><code>/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
+<pre><code>!#/bin/sh
+/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
 </ul>
 ------------
 
