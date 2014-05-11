@@ -6,7 +6,10 @@ What the hell is it? Good question. This isn't exactly new information, but I wa
 Shoutouts
 ============
 
-I wrote a few shell scripts for use with <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier by alloy</a>, so, thanks for that! I also combined some automated tasks with IFTTT and Dropbox using  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Hazel by Noodlesoft</a>.
+<p><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier by alloy</a> | INCLUDED<br>
+<i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
+<p><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel by Noodlesoft</a> | NOT REQUIRED (BUT HELPS)<br>
+A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</p>
 
 App Releases
 ============
@@ -21,7 +24,12 @@ These are some of the apps I included as releases. Feel free to make your own wi
 Installation
 ============
 
-Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: <pre><code>/Library/ScriptingAdditions/</code></pre><strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>
+Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: 
+<pre><code>/Library/ScriptingAdditions/</code></pre><strong>
+Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>. First, you will have to create your own trusted certificate using Keychain Access. Codesign the app like so, where 'jickpictures' is your certificate signature, and then the path to your app:
+<pre><code>codesign -f -s jickpictures /Library/ScriptingAdditions/Application.app</code></pre><strong>
+To check your credentials and other executable information, simply do:
+<pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre><strong>
 
 Examples
 ============
@@ -58,4 +66,4 @@ Examples
 Copyright
 ============
 
-Basically, I didn't design any of the icons or write any of the code within these bundled apps besides the shell scripts and Hazel rules. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
+Basically, I didn't design any of the icons or write any of the code within these bundled apps. I did, however, resize the app icons for Retina Display, wrote a little extra to the shell scripts, and built the Hazel rules driving the actions from IFTTT. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
