@@ -3,14 +3,6 @@ IFTTT-OSX
 
 What the hell is it? Good question. This isn't exactly new information, but I wanted to create an organized, instructional template illustrating how to build custom notifications for use with OSX Notification Center. To put it simply, I love push notifications. I not only wanted a flow of notifications through iOS with the use of <a href="https://ifttt.com" target="_blank">IFTTT</a> and <a href="https://www.pushover.net" target="_blank">Pushover</a>, but I also wanted to receive these same notifications on OSX as well. I bundled a few apps together using the core framework of <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> to get OSX notifications of some of my most frequently used apps not available through OSX. Therefore, IFTTT-OSX is bridging the gap between push notifications across all devices. I want to make this clear that all this could not be done without the use of IFTTT, Terminal Notifier, Dropbox, and <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>. Shoutouts to the developers of these apps are listed below.
 
-Shoutouts
-============
-
-<p><strong><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> by alloy</strong> | CORE FRAMEWORK<br>
-<i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
-<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
-<i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
-
 App Releases
 ============
 
@@ -37,7 +29,7 @@ Examples
 <p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't working for you, I've listed them out here:</p>
 ------------
 <p><strong>1. Parking Location Reminder</strong> | Automatic<br>
-<i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image and uses that for the <code>-contentImage</code> and opens the downloaded image using <code>-activate</code>.</i></p>
+<i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>.</i></p>
 ------------
 <ul>
 <li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
@@ -62,6 +54,14 @@ Examples
 /Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open file://"$1" -contentImage "$1" -group 'automatic-park' -remove 'automatic-park'</code></pre>
 </ul>
 ------------
+
+Shoutouts
+============
+
+<p><strong><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> by alloy</strong> | CORE FRAMEWORK<br>
+<i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
+<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
+<i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
 
 Copyright
 ============
