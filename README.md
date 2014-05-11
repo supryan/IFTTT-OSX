@@ -29,7 +29,7 @@ Examples
 <p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
 ------------
 <p><strong>Automatic (Driving Assistant)</strong><br>
-<i>Parking Location Reminder</i><br>
+<i>Parking Location Reminder</i></p>
 ------------
 <ul>
 <li>IFTTT Recipe <a href="#">(View shared receipe)</a>:</li>
