@@ -22,7 +22,7 @@ Download a release by selecting one above or create your own app with the Xcode 
 <pre><code>codesign -f -s jickpictures /Library/ScriptingAdditions/Application.app</code></pre>
 To check your credentials and other executable information, simply do:
 <pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre>
-Next, you're going to want to set up some folder actions. This is what will run the shell script calling the notifications when receiving a file from IFTTT in your Dropbox. I recommend setting this up with <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>, because I pre-built some rules with the shell scripts already included in the releases. However, if you can't use Hazel, OSX has a similiar functionality with Automator and it's own folder actions.
+Next, you're going to want to set up some folder actions. This is what will run the shell script calling the notifications when receiving a file from IFTTT in your Dropbox. I recommend setting this up with <a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a>, because I pre-built some rules with the shell scripts already included in the releases. However, if you can't use Hazel, OSX has a similiar functionality with Automator and it's own folder actions feature.
 
 Examples
 ============
