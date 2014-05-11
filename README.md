@@ -28,9 +28,8 @@ Examples
 
 <p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't installing for you, I've listed them out here:</p>
 ------------
-<p><strong>1. Parking Location Reminder</strong><br>
-<i>Use: Automatic.app</i><br>
-Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image and uses that for the <code>-contentImage</code> and opens the downloaded image using <code>-activate</code>.</p>
+<p><strong>1. Parking Location Reminder</strong> | Automatic<br>
+<i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image and uses that for the <code>-contentImage</code> and opens the downloaded image using <code>-activate</code>.</i></p>
 ------------
 <ul>
 <li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
