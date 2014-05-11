@@ -32,7 +32,7 @@ Examples
 <i>Use with: Automatic</i></p>
 ------------
 <ul>
-<li>IFTTT Recipe <a href="#">(View shared receipe)</a>:</li>
+<li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
 </ul>
 | Automatic | Dropbox |
 | ------------- | ------------- |
