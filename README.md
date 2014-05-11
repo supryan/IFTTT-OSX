@@ -66,4 +66,4 @@ Shoutouts
 Copyright
 ============
 
-Basically, I didn't design any of the icons or write any of the code within these bundled apps. I did, however, resize the app icons for Retina Display, wrote a little extra to the shell scripts, and built the Hazel rules driving the actions from IFTTT. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
+Basically, I didn't design any of the icons or write any of the code within these bundled apps. I did, however, resize the app icons for Retina Display, wrote a little extra to the shell scripts calling the notifications, and built the Hazel rules driving the actions from IFTTT. Please see the 'Shoutouts' section above. With that said, I can't go to jail. More coming soon.
