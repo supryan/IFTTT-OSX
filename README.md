@@ -35,9 +35,10 @@ Examples
 <ul>
 <li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
 </ul>
-| Automatic | Dropbox |
-| ------------- | ------------- |
-| Ignition Off | Download file from URL |
+| | Automatic | | Dropbox |
+| :-------------: | :------------- | :-------------: | :------------- |
+| <i>IF</i> | Ignition Off | <i>THEN</i> | Download file from URL |
+NOTE: You can download the Google Maps HTML file with 'LocationMapURL' action. This way, the shell script below will allow you to open the Google map in your browser. Keep in mind, if you do not choose the 'LocationMapImageURL' action, you will not be able to use the <code>-contentImage</code> command for displaying the maps image in the notification.
 <ul>
 <li>Hazel rules:</li>
 </ul>
