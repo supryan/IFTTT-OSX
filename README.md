@@ -6,9 +6,9 @@ What the hell is it? Good question. This isn't exactly new information, but I wa
 Shoutouts
 ============
 
-<p><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> by alloy | CORE FRAMEWORK<br>
+<p><strong><a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> by alloy</strong> | CORE FRAMEWORK<br>
 <i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
-<p><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft | NOT REQUIRED (BUT REALLY HELPS)<br>
+<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
 <i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
 
 App Releases
@@ -25,11 +25,11 @@ Installation
 ============
 
 Download a release by selecting one above or create your own app with the Xcode project provided. Drag your custom OSX Notification app into: 
-<pre><code>/Library/ScriptingAdditions/</code></pre><strong>
-Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>. First, you will have to create your own trusted certificate using Keychain Access. Codesign the app like so, where 'jickpictures' is your certificate signature, and then the path to your app:
-<pre><code>codesign -f -s jickpictures /Library/ScriptingAdditions/Application.app</code></pre><strong>
+<pre><code>/Library/ScriptingAdditions/</code></pre>
+<strong>Don't forget to code-sign the app using Terminal (or your Developer ID via Xcode) or they will not run under GateKeeper! (OSX 10.8x)</strong>. First, you will have to create your own trusted certificate using Keychain Access. Codesign the app like so, where 'jickpictures' is your certificate signature, and then the path to your app:
+<pre><code>codesign -f -s jickpictures /Library/ScriptingAdditions/Application.app</code></pre>
 To check your credentials and other executable information, simply do:
-<pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre><strong>
+<pre><code>codesign -dvvvv /Library/ScriptingAdditions/Application.app</code></pre>
 
 Examples
 ============
