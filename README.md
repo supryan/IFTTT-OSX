@@ -12,7 +12,7 @@ Here are some of the bundled apps I pre-built as releases. Feel free to make you
 <li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
 <li><strong>Starbucks | <a href="http://www.starbucks.com" target="_blank">Website</a> | <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
 </ol>
- |
+
 Installation
 ============
 
