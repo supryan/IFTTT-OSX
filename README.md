@@ -27,7 +27,7 @@ Next, you're going to want to set up some folder actions. This is what will run 
 Examples
 ============
 
-<p>Here are a few examples of what you could do with these bundled apps. If for some reason the Hazel rules weren't working for you, I've listed them out here:</p>
+<p>Here are a few examples of what you could do with these bundled apps. Complete detailed descriptions and usage examples/ideas are available on the app bundle release page (i.e. Automatic). If for some reason the Hazel rules aren't working for you, I've layed them out so you can set them up manually:</p>
 ------------
 <p><strong>1. Parking Location Reminder</strong> | Automatic<br>
 <i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>.</i></p>
