@@ -15,6 +15,14 @@
 		207F822E191E049C00F05A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F822D191E049C00F05A03 /* AppDelegate.m */; };
 		207F824C191E04BF00F05A03 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
 		20C466B41956154A00293C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C466B21956154A00293C0A /* MainMenu.xib */; };
+		20C466BA1956172700293C0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
+		20C466C01956172700293C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C466BE1956172700293C0A /* InfoPlist.strings */; };
+		20C466C21956172700293C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C466C11956172700293C0A /* main.m */; };
+		20C466C61956172700293C0A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20C466C41956172700293C0A /* Credits.rtf */; };
+		20C466C91956172700293C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C466C81956172700293C0A /* AppDelegate.m */; };
+		20C466E9195617BD00293C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C466E7195617BD00293C0A /* MainMenu.xib */; };
+		20C466ED1956188500293C0A /* ifttt.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20C466EC1956188500293C0A /* ifttt.icns */; };
+		20C466EE195618A400293C0A /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
 		20F229FE195610AA005DB602 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
 		20F22A04195610AA005DB602 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20F22A02195610AA005DB602 /* InfoPlist.strings */; };
 		20F22A06195610AA005DB602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F22A05195610AA005DB602 /* main.m */; };
@@ -44,6 +52,16 @@
 		207F822C191E049C00F05A03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		207F822D191E049C00F05A03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20C466B31956154A00293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20C466B91956172700293C0A /* IFTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C466BD1956172700293C0A /* IFTTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFTTT-Info.plist"; sourceTree = "<group>"; };
+		20C466BF1956172700293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20C466C11956172700293C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20C466C31956172700293C0A /* IFTTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFTTT-Prefix.pch"; sourceTree = "<group>"; };
+		20C466C51956172700293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20C466C71956172700293C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20C466C81956172700293C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20C466E8195617BD00293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20C466EC1956188500293C0A /* ifttt.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ifttt.icns; sourceTree = "<group>"; };
 		20F229FD195610AA005DB602 /* Wells Fargo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wells Fargo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F22A01195610AA005DB602 /* Wells Fargo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wells Fargo-Info.plist"; sourceTree = "<group>"; };
 		20F22A03195610AA005DB602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -78,6 +96,15 @@
 			files = (
 				207F824C191E04BF00F05A03 /* ScriptingBridge.framework in Frameworks */,
 				207F821F191E049C00F05A03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C466B61956172700293C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C466EE195618A400293C0A /* ScriptingBridge.framework in Frameworks */,
+				20C466BA1956172700293C0A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +148,29 @@
 				207F8226191E049C00F05A03 /* main.m */,
 				207F8228191E049C00F05A03 /* Automatic-Prefix.pch */,
 				207F8229191E049C00F05A03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20C466BB1956172700293C0A /* IFTTT */ = {
+			isa = PBXGroup;
+			children = (
+				20C466E7195617BD00293C0A /* MainMenu.xib */,
+				20C466C71956172700293C0A /* AppDelegate.h */,
+				20C466C81956172700293C0A /* AppDelegate.m */,
+				20C466BC1956172700293C0A /* Supporting Files */,
+			);
+			path = IFTTT;
+			sourceTree = "<group>";
+		};
+		20C466BC1956172700293C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C466BD1956172700293C0A /* IFTTT-Info.plist */,
+				20C466BE1956172700293C0A /* InfoPlist.strings */,
+				20C466C11956172700293C0A /* main.m */,
+				20C466C31956172700293C0A /* IFTTT-Prefix.pch */,
+				20C466C41956172700293C0A /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,12 +224,14 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
+				20C466EC1956188500293C0A /* ifttt.icns */,
 				20F22A2E1956137A005DB602 /* wellsfargo.icns */,
 				20F44741191ED95B00376455 /* starbucks.icns */,
 				20F4473F191ED94300376455 /* automatic.icns */,
 				207F8220191E049C00F05A03 /* Automatic */,
 				20F4470D191ED4AD00376455 /* Starbucks */,
 				20F229FF195610AA005DB602 /* Wells Fargo */,
+				20C466BB1956172700293C0A /* IFTTT */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
 				5199791515B1F92B003AFC57 /* Products */,
 			);
@@ -191,6 +243,7 @@
 				207F821E191E049C00F05A03 /* Automatic.app */,
 				20F4470B191ED4AD00376455 /* Starbucks.app */,
 				20F229FD195610AA005DB602 /* Wells Fargo.app */,
+				20C466B91956172700293C0A /* IFTTT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +286,23 @@
 			name = Automatic;
 			productName = Automatic;
 			productReference = 207F821E191E049C00F05A03 /* Automatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C466B81956172700293C0A /* IFTTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C466E11956172800293C0A /* Build configuration list for PBXNativeTarget "IFTTT" */;
+			buildPhases = (
+				20C466B51956172700293C0A /* Sources */,
+				20C466B61956172700293C0A /* Frameworks */,
+				20C466B71956172700293C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFTTT;
+			productName = IFTTT;
+			productReference = 20C466B91956172700293C0A /* IFTTT.app */;
 			productType = "com.apple.product-type.application";
 		};
 		20F229FC195610AA005DB602 /* Wells Fargo */ = {
@@ -294,6 +364,7 @@
 				207F821D191E049C00F05A03 /* Automatic */,
 				20F4470A191ED4AD00376455 /* Starbucks */,
 				20F229FC195610AA005DB602 /* Wells Fargo */,
+				20C466B81956172700293C0A /* IFTTT */,
 			);
 		};
 /* End PBXProject section */
@@ -307,6 +378,17 @@
 				207F8225191E049C00F05A03 /* InfoPlist.strings in Resources */,
 				207F822B191E049C00F05A03 /* Credits.rtf in Resources */,
 				20718109191EBED000B685E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C466B71956172700293C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C466ED1956188500293C0A /* ifttt.icns in Resources */,
+				20C466C01956172700293C0A /* InfoPlist.strings in Resources */,
+				20C466C61956172700293C0A /* Credits.rtf in Resources */,
+				20C466E9195617BD00293C0A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +423,15 @@
 			files = (
 				207F822E191E049C00F05A03 /* AppDelegate.m in Sources */,
 				207F8227191E049C00F05A03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C466B51956172700293C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C466C91956172700293C0A /* AppDelegate.m in Sources */,
+				20C466C21956172700293C0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +484,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				20C466B31956154A00293C0A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		20C466BE1956172700293C0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C466BF1956172700293C0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20C466C41956172700293C0A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C466C51956172700293C0A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20C466E7195617BD00293C0A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C466E8195617BD00293C0A /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -490,6 +605,61 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Automatic/Automatic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20C466E21956172800293C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IFTTT/IFTTT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "IFTTT/IFTTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20C466E31956172800293C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IFTTT/IFTTT-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "IFTTT/IFTTT-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -663,6 +833,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		20C466E11956172800293C0A /* Build configuration list for PBXNativeTarget "IFTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C466E21956172800293C0A /* Debug */,
+				20C466E31956172800293C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		20F22A25195610AA005DB602 /* Build configuration list for PBXNativeTarget "Wells Fargo" */ = {
 			isa = XCConfigurationList;
