@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>starbucks</string>
+	<string>wellsfargo</string>
 	<key>CFBundleIdentifier</key>
-	<string>notifications.jickpictures.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>notifications.jickpictures.WellsFargo</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

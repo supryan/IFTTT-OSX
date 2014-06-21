@@ -38,6 +38,16 @@
                ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20F22A16195610AA005DB602"
+               BuildableName = "Wells FargoTests.xctest"
+               BlueprintName = "Wells FargoTests"
+               ReferencedContainer = "container:IFTTT-OSX.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
