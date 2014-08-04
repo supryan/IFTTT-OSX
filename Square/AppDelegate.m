@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  IFTTT
+//  Square
 //
 //  Created by Ryan Gordon on 5/9/14.
 //  Copyright (c) 2014 Eloy Durán. All rights reserved.
@@ -10,7 +10,7 @@
 #import <ScriptingBridge/ScriptingBridge.h>
 #import <objc/runtime.h>
 
-NSString * const IFTTTNotifierBundleID = @"notifications.jickpictures.IFTTT";
+NSString * const SquareNotifierBundleID = @"notifications.jickpictures.Square";
 NSString * const NotificationCenterUIBundleID = @"com.apple.notificationcenterui";
 
 // Set OS Params
@@ -28,7 +28,7 @@ NSString *_fakeBundleIdentifier = nil;
 - (NSString *)__bundleIdentifier;
 {
     if (self == [NSBundle mainBundle]) {
-        return _fakeBundleIdentifier ? _fakeBundleIdentifier : IFTTTNotifierBundleID;
+        return _fakeBundleIdentifier ? _fakeBundleIdentifier : SquareNotifierBundleID;
     } else {
         return [self __bundleIdentifier];
     }

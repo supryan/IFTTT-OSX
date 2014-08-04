@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20559CFA198F168800EAB658 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
+		20559D00198F168800EAB658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20559CFE198F168800EAB658 /* InfoPlist.strings */; };
+		20559D02198F168800EAB658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20559D01198F168800EAB658 /* main.m */; };
+		20559D06198F168800EAB658 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20559D04198F168800EAB658 /* Credits.rtf */; };
+		20559D30198F176300EAB658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20559D2F198F176300EAB658 /* AppDelegate.m */; };
+		20559D31198F17B000EAB658 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20559D33198F17B000EAB658 /* MainMenu.xib */; };
+		20559D35198F184A00EAB658 /* square.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D29198F16E700EAB658 /* square.icns */; };
+		20559D36198F185A00EAB658 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		20559D3C198F1C6400EAB658 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
+		20559D42198F1C6400EAB658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20559D40198F1C6400EAB658 /* InfoPlist.strings */; };
+		20559D44198F1C6400EAB658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20559D43198F1C6400EAB658 /* main.m */; };
+		20559D48198F1C6400EAB658 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20559D46198F1C6400EAB658 /* Credits.rtf */; };
+		20559D6D198F1CC200EAB658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20559D6C198F1CC200EAB658 /* AppDelegate.m */; };
+		20559D6E198F1CE800EAB658 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20559D70198F1CE800EAB658 /* MainMenu.xib */; };
+		20559D71198F1CFF00EAB658 /* githubpush.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D27198F16E700EAB658 /* githubpush.icns */; };
+		20559D72198F1D0A00EAB658 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		20559D78198F1D4B00EAB658 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
+		20559D7E198F1D4B00EAB658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20559D7C198F1D4B00EAB658 /* InfoPlist.strings */; };
+		20559D80198F1D4B00EAB658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20559D7F198F1D4B00EAB658 /* main.m */; };
+		20559D84198F1D4B00EAB658 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20559D82198F1D4B00EAB658 /* Credits.rtf */; };
 		20718109191EBED000B685E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2071810B191EBED000B685E3 /* MainMenu.xib */; };
 		207F821F191E049C00F05A03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
 		207F8225191E049C00F05A03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 207F8223191E049C00F05A03 /* InfoPlist.strings */; };
@@ -14,6 +34,18 @@
 		207F822B191E049C00F05A03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 207F8229191E049C00F05A03 /* Credits.rtf */; };
 		207F822E191E049C00F05A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F822D191E049C00F05A03 /* AppDelegate.m */; };
 		207F824C191E04BF00F05A03 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		2081C0B1198F1D99008D9CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081C0B0198F1D99008D9CAD /* AppDelegate.m */; };
+		2081C0B5198F1DE8008D9CAD /* reddit.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D28198F16E700EAB658 /* reddit.icns */; };
+		2081C0B6198F1DF4008D9CAD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		2081C0BC198F1E38008D9CAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
+		2081C0C2198F1E38008D9CAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0C0198F1E38008D9CAD /* InfoPlist.strings */; };
+		2081C0C4198F1E38008D9CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081C0C3198F1E38008D9CAD /* main.m */; };
+		2081C0C8198F1E38008D9CAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0C6198F1E38008D9CAD /* Credits.rtf */; };
+		2081C0EB198F1E6A008D9CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081C0EA198F1E6A008D9CAD /* AppDelegate.m */; };
+		2081C0ED198F1E73008D9CAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0EC198F1E73008D9CAD /* MainMenu.xib */; };
+		2081C0EE198F1E7D008D9CAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0F0198F1E7D008D9CAD /* MainMenu.xib */; };
+		2081C0F1198F1EC1008D9CAD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
+		2081C0F2198F1F12008D9CAD /* uber.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D2A198F16E700EAB658 /* uber.icns */; };
 		20C466B41956154A00293C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C466B21956154A00293C0A /* MainMenu.xib */; };
 		20C466BA1956172700293C0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
 		20C466C01956172700293C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C466BE1956172700293C0A /* InfoPlist.strings */; };
@@ -42,6 +74,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20559CF9198F168800EAB658 /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20559CFD198F168800EAB658 /* Square-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Square-Info.plist"; sourceTree = "<group>"; };
+		20559CFF198F168800EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20559D01198F168800EAB658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20559D03198F168800EAB658 /* Square-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
+		20559D05198F168800EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20559D27198F16E700EAB658 /* githubpush.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = githubpush.icns; sourceTree = SOURCE_ROOT; };
+		20559D28198F16E700EAB658 /* reddit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = reddit.icns; sourceTree = SOURCE_ROOT; };
+		20559D29198F16E700EAB658 /* square.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = square.icns; sourceTree = SOURCE_ROOT; };
+		20559D2A198F16E700EAB658 /* uber.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = uber.icns; sourceTree = SOURCE_ROOT; };
+		20559D2D198F174300EAB658 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20559D2F198F176300EAB658 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20559D34198F17BD00EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20559D3B198F1C6400EAB658 /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20559D3F198F1C6400EAB658 /* GitHub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHub-Info.plist"; sourceTree = "<group>"; };
+		20559D41198F1C6400EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20559D43198F1C6400EAB658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20559D45198F1C6400EAB658 /* GitHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitHub-Prefix.pch"; sourceTree = "<group>"; };
+		20559D47198F1C6400EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20559D6B198F1CB300EAB658 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20559D6C198F1CC200EAB658 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20559D6F198F1CE800EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20559D77198F1D4B00EAB658 /* Reddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20559D7B198F1D4B00EAB658 /* Reddit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reddit-Info.plist"; sourceTree = "<group>"; };
+		20559D7D198F1D4B00EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20559D7F198F1D4B00EAB658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20559D81198F1D4B00EAB658 /* Reddit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reddit-Prefix.pch"; sourceTree = "<group>"; };
+		20559D83198F1D4B00EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2071810A191EBED000B685E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		207F821E191E049C00F05A03 /* Automatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207F8222191E049C00F05A03 /* Automatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Automatic-Info.plist"; sourceTree = "<group>"; };
@@ -51,6 +111,18 @@
 		207F822A191E049C00F05A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		207F822C191E049C00F05A03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		207F822D191E049C00F05A03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2081C0B0198F1D99008D9CAD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2081C0B4198F1DB6008D9CAD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2081C0BB198F1E38008D9CAD /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2081C0BF198F1E38008D9CAD /* Uber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Uber-Info.plist"; sourceTree = "<group>"; };
+		2081C0C1198F1E38008D9CAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2081C0C3198F1E38008D9CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2081C0C5198F1E38008D9CAD /* Uber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uber-Prefix.pch"; sourceTree = "<group>"; };
+		2081C0C7198F1E38008D9CAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2081C0E9198F1E62008D9CAD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2081C0EA198F1E6A008D9CAD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2081C0EC198F1E73008D9CAD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		2081C0EF198F1E7D008D9CAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		20C466B31956154A00293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		20C466B91956172700293C0A /* IFTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C466BD1956172700293C0A /* IFTTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFTTT-Info.plist"; sourceTree = "<group>"; };
@@ -90,12 +162,48 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20559CF6198F168800EAB658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D36198F185A00EAB658 /* ScriptingBridge.framework in Frameworks */,
+				20559CFA198F168800EAB658 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D38198F1C6400EAB658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D72198F1D0A00EAB658 /* ScriptingBridge.framework in Frameworks */,
+				20559D3C198F1C6400EAB658 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D74198F1D4B00EAB658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081C0B6198F1DF4008D9CAD /* ScriptingBridge.framework in Frameworks */,
+				20559D78198F1D4B00EAB658 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		207F821B191E049C00F05A03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				207F824C191E04BF00F05A03 /* ScriptingBridge.framework in Frameworks */,
 				207F821F191E049C00F05A03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2081C0B8198F1E38008D9CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081C0F1198F1EC1008D9CAD /* ScriptingBridge.framework in Frameworks */,
+				2081C0BC198F1E38008D9CAD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +237,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20559CFB198F168800EAB658 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				20559D2F198F176300EAB658 /* AppDelegate.m */,
+				20559D2D198F174300EAB658 /* AppDelegate.h */,
+				20559D33198F17B000EAB658 /* MainMenu.xib */,
+				20559CFC198F168800EAB658 /* Supporting Files */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		20559CFC198F168800EAB658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20559CFD198F168800EAB658 /* Square-Info.plist */,
+				20559CFE198F168800EAB658 /* InfoPlist.strings */,
+				20559D01198F168800EAB658 /* main.m */,
+				20559D03198F168800EAB658 /* Square-Prefix.pch */,
+				20559D04198F168800EAB658 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20559D3D198F1C6400EAB658 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				20559D6C198F1CC200EAB658 /* AppDelegate.m */,
+				20559D6B198F1CB300EAB658 /* AppDelegate.h */,
+				20559D70198F1CE800EAB658 /* MainMenu.xib */,
+				20559D3E198F1C6400EAB658 /* Supporting Files */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		20559D3E198F1C6400EAB658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20559D3F198F1C6400EAB658 /* GitHub-Info.plist */,
+				20559D40198F1C6400EAB658 /* InfoPlist.strings */,
+				20559D43198F1C6400EAB658 /* main.m */,
+				20559D45198F1C6400EAB658 /* GitHub-Prefix.pch */,
+				20559D46198F1C6400EAB658 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20559D79198F1D4B00EAB658 /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				2081C0B4198F1DB6008D9CAD /* AppDelegate.h */,
+				2081C0B0198F1D99008D9CAD /* AppDelegate.m */,
+				2081C0F0198F1E7D008D9CAD /* MainMenu.xib */,
+				20559D7A198F1D4B00EAB658 /* Supporting Files */,
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		20559D7A198F1D4B00EAB658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20559D7B198F1D4B00EAB658 /* Reddit-Info.plist */,
+				20559D7C198F1D4B00EAB658 /* InfoPlist.strings */,
+				20559D7F198F1D4B00EAB658 /* main.m */,
+				20559D81198F1D4B00EAB658 /* Reddit-Prefix.pch */,
+				20559D82198F1D4B00EAB658 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		207F8220191E049C00F05A03 /* Automatic */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +325,29 @@
 				207F8226191E049C00F05A03 /* main.m */,
 				207F8228191E049C00F05A03 /* Automatic-Prefix.pch */,
 				207F8229191E049C00F05A03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2081C0BD198F1E38008D9CAD /* Uber */ = {
+			isa = PBXGroup;
+			children = (
+				2081C0EC198F1E73008D9CAD /* MainMenu.xib */,
+				2081C0EA198F1E6A008D9CAD /* AppDelegate.m */,
+				2081C0E9198F1E62008D9CAD /* AppDelegate.h */,
+				2081C0BE198F1E38008D9CAD /* Supporting Files */,
+			);
+			path = Uber;
+			sourceTree = "<group>";
+		};
+		2081C0BE198F1E38008D9CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2081C0BF198F1E38008D9CAD /* Uber-Info.plist */,
+				2081C0C0198F1E38008D9CAD /* InfoPlist.strings */,
+				2081C0C3198F1E38008D9CAD /* main.m */,
+				2081C0C5198F1E38008D9CAD /* Uber-Prefix.pch */,
+				2081C0C6198F1E38008D9CAD /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,6 +424,10 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
+				20559D27198F16E700EAB658 /* githubpush.icns */,
+				20559D28198F16E700EAB658 /* reddit.icns */,
+				20559D29198F16E700EAB658 /* square.icns */,
+				20559D2A198F16E700EAB658 /* uber.icns */,
 				20C466EC1956188500293C0A /* ifttt.icns */,
 				20F22A2E1956137A005DB602 /* wellsfargo.icns */,
 				20F44741191ED95B00376455 /* starbucks.icns */,
@@ -232,6 +436,10 @@
 				20F4470D191ED4AD00376455 /* Starbucks */,
 				20F229FF195610AA005DB602 /* Wells Fargo */,
 				20C466BB1956172700293C0A /* IFTTT */,
+				20559CFB198F168800EAB658 /* Square */,
+				20559D3D198F1C6400EAB658 /* GitHub */,
+				20559D79198F1D4B00EAB658 /* Reddit */,
+				2081C0BD198F1E38008D9CAD /* Uber */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
 				5199791515B1F92B003AFC57 /* Products */,
 			);
@@ -244,6 +452,10 @@
 				20F4470B191ED4AD00376455 /* Starbucks.app */,
 				20F229FD195610AA005DB602 /* Wells Fargo.app */,
 				20C466B91956172700293C0A /* IFTTT.app */,
+				20559CF9198F168800EAB658 /* Square.app */,
+				20559D3B198F1C6400EAB658 /* GitHub.app */,
+				20559D77198F1D4B00EAB658 /* Reddit.app */,
+				2081C0BB198F1E38008D9CAD /* Uber.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,6 +483,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		20559CF8198F168800EAB658 /* Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20559D21198F168800EAB658 /* Build configuration list for PBXNativeTarget "Square" */;
+			buildPhases = (
+				20559CF5198F168800EAB658 /* Sources */,
+				20559CF6198F168800EAB658 /* Frameworks */,
+				20559CF7198F168800EAB658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Square;
+			productName = Square;
+			productReference = 20559CF9198F168800EAB658 /* Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20559D3A198F1C6400EAB658 /* GitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20559D63198F1C6400EAB658 /* Build configuration list for PBXNativeTarget "GitHub" */;
+			buildPhases = (
+				20559D37198F1C6400EAB658 /* Sources */,
+				20559D38198F1C6400EAB658 /* Frameworks */,
+				20559D39198F1C6400EAB658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHub;
+			productName = GitHub;
+			productReference = 20559D3B198F1C6400EAB658 /* GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20559D76198F1D4B00EAB658 /* Reddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20559D9F198F1D4B00EAB658 /* Build configuration list for PBXNativeTarget "Reddit" */;
+			buildPhases = (
+				20559D73198F1D4B00EAB658 /* Sources */,
+				20559D74198F1D4B00EAB658 /* Frameworks */,
+				20559D75198F1D4B00EAB658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reddit;
+			productName = Reddit;
+			productReference = 20559D77198F1D4B00EAB658 /* Reddit.app */;
+			productType = "com.apple.product-type.application";
+		};
 		207F821D191E049C00F05A03 /* Automatic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 207F8246191E049C00F05A03 /* Build configuration list for PBXNativeTarget "Automatic" */;
@@ -286,6 +549,23 @@
 			name = Automatic;
 			productName = Automatic;
 			productReference = 207F821E191E049C00F05A03 /* Automatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2081C0BA198F1E38008D9CAD /* Uber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2081C0E3198F1E38008D9CAD /* Build configuration list for PBXNativeTarget "Uber" */;
+			buildPhases = (
+				2081C0B7198F1E38008D9CAD /* Sources */,
+				2081C0B8198F1E38008D9CAD /* Frameworks */,
+				2081C0B9198F1E38008D9CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uber;
+			productName = Uber;
+			productReference = 2081C0BB198F1E38008D9CAD /* Uber.app */;
 			productType = "com.apple.product-type.application";
 		};
 		20C466B81956172700293C0A /* IFTTT */ = {
@@ -365,11 +645,48 @@
 				20F4470A191ED4AD00376455 /* Starbucks */,
 				20F229FC195610AA005DB602 /* Wells Fargo */,
 				20C466B81956172700293C0A /* IFTTT */,
+				20559CF8198F168800EAB658 /* Square */,
+				20559D3A198F1C6400EAB658 /* GitHub */,
+				20559D76198F1D4B00EAB658 /* Reddit */,
+				2081C0BA198F1E38008D9CAD /* Uber */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20559CF7198F168800EAB658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D00198F168800EAB658 /* InfoPlist.strings in Resources */,
+				20559D06198F168800EAB658 /* Credits.rtf in Resources */,
+				20559D35198F184A00EAB658 /* square.icns in Resources */,
+				20559D31198F17B000EAB658 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D39198F1C6400EAB658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D42198F1C6400EAB658 /* InfoPlist.strings in Resources */,
+				20559D71198F1CFF00EAB658 /* githubpush.icns in Resources */,
+				20559D48198F1C6400EAB658 /* Credits.rtf in Resources */,
+				20559D6E198F1CE800EAB658 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D75198F1D4B00EAB658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D7E198F1D4B00EAB658 /* InfoPlist.strings in Resources */,
+				20559D84198F1D4B00EAB658 /* Credits.rtf in Resources */,
+				2081C0B5198F1DE8008D9CAD /* reddit.icns in Resources */,
+				2081C0EE198F1E7D008D9CAD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		207F821C191E049C00F05A03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +695,17 @@
 				207F8225191E049C00F05A03 /* InfoPlist.strings in Resources */,
 				207F822B191E049C00F05A03 /* Credits.rtf in Resources */,
 				20718109191EBED000B685E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2081C0B9198F1E38008D9CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081C0C2198F1E38008D9CAD /* InfoPlist.strings in Resources */,
+				2081C0C8198F1E38008D9CAD /* Credits.rtf in Resources */,
+				2081C0F2198F1F12008D9CAD /* uber.icns in Resources */,
+				2081C0ED198F1E73008D9CAD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +745,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20559CF5198F168800EAB658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D30198F176300EAB658 /* AppDelegate.m in Sources */,
+				20559D02198F168800EAB658 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D37198F1C6400EAB658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20559D6D198F1CC200EAB658 /* AppDelegate.m in Sources */,
+				20559D44198F1C6400EAB658 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20559D73198F1D4B00EAB658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081C0B1198F1D99008D9CAD /* AppDelegate.m in Sources */,
+				20559D80198F1D4B00EAB658 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		207F821A191E049C00F05A03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				207F822E191E049C00F05A03 /* AppDelegate.m in Sources */,
 				207F8227191E049C00F05A03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2081C0B7198F1E38008D9CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081C0EB198F1E6A008D9CAD /* AppDelegate.m in Sources */,
+				2081C0C4198F1E38008D9CAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +820,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		20559CFE198F168800EAB658 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559CFF198F168800EAB658 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20559D04198F168800EAB658 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D05198F168800EAB658 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20559D33198F17B000EAB658 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D34198F17BD00EAB658 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		20559D40198F1C6400EAB658 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D41198F1C6400EAB658 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20559D46198F1C6400EAB658 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D47198F1C6400EAB658 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20559D70198F1CE800EAB658 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D6F198F1CE800EAB658 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		20559D7C198F1D4B00EAB658 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D7D198F1D4B00EAB658 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20559D82198F1D4B00EAB658 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20559D83198F1D4B00EAB658 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
 		2071810B191EBED000B685E3 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,6 +906,30 @@
 				207F822A191E049C00F05A03 /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2081C0C0198F1E38008D9CAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2081C0C1198F1E38008D9CAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2081C0C6198F1E38008D9CAD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2081C0C7198F1E38008D9CAD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2081C0F0198F1E7D008D9CAD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2081C0EF198F1E7D008D9CAD /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		20C466B21956154A00293C0A /* MainMenu.xib */ = {
@@ -555,6 +1007,171 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		20559D22198F168800EAB658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Square/Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20559D23198F168800EAB658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Square/Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20559D64198F1C6400EAB658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHub/GitHub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GitHub/GitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20559D65198F1C6400EAB658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHub/GitHub-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GitHub/GitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20559DA0198F1D4B00EAB658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reddit/Reddit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Reddit/Reddit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20559DA1198F1D4B00EAB658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reddit/Reddit-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Reddit/Reddit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		207F8247191E049C00F05A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -605,6 +1222,61 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Automatic/Automatic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2081C0E4198F1E38008D9CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uber/Uber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Uber/Uber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2081C0E5198F1E38008D9CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uber/Uber-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Uber/Uber-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -825,6 +1497,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20559D21198F168800EAB658 /* Build configuration list for PBXNativeTarget "Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20559D22198F168800EAB658 /* Debug */,
+				20559D23198F168800EAB658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20559D63198F1C6400EAB658 /* Build configuration list for PBXNativeTarget "GitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20559D64198F1C6400EAB658 /* Debug */,
+				20559D65198F1C6400EAB658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20559D9F198F1D4B00EAB658 /* Build configuration list for PBXNativeTarget "Reddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20559DA0198F1D4B00EAB658 /* Debug */,
+				20559DA1198F1D4B00EAB658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		207F8246191E049C00F05A03 /* Build configuration list for PBXNativeTarget "Automatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -834,6 +1533,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2081C0E3198F1E38008D9CAD /* Build configuration list for PBXNativeTarget "Uber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2081C0E4198F1E38008D9CAD /* Debug */,
+				2081C0E5198F1E38008D9CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		20C466E11956172800293C0A /* Build configuration list for PBXNativeTarget "IFTTT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -841,6 +1548,7 @@
 				20C466E31956172800293C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20F22A25195610AA005DB602 /* Build configuration list for PBXNativeTarget "Wells Fargo" */ = {
 			isa = XCConfigurationList;
