@@ -52,7 +52,7 @@ Example
 | Copy | to folder | "Parking Reminders" |
 | Sort into subfolder | with pattern | (date created) |
 | Rename | with pattern | "Parked on (date created)(extension)" |
-<p><strong>NOTE:</strong> Hazel rules included in the releases can include a 'function' rule that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT.</p>
+<p><strong>NOTE:</strong> Hazel rules included in the releases can include a 'tasking rule' that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT. Tasking rules can sometimes be necessary for running the rest of the rules under them. Common examples of these rules are always labeled similarly to: <code>/// These Subfolders ///</code>. Some of these might be required to use my pre-built rules. Check the note icon included with the rule for more information on the conditions and actions. <i>Yeah, I'm that organized.</i></p>
 
 <ul>
 <li>Shell script:</li>
