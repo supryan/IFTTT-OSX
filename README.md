@@ -9,7 +9,7 @@ App Releases
 Here are some of the bundled apps I pre-built as releases. Feel free to make your own with  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> or the Xcode Project I included in this repo if you want to add to the others.
 
 <ol>
-<li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
+<li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com/recipes/193804-if-ignition-turned-off-then-notify-of-the-location-on-osx-notification-center-using-hazel" target="_blank">IFTTT Recipe</a> | <a href="https://github.com/jickpictures/IFTTT-OSX/releases/tag/v1.0">Release (v1.0)</a> |</strong></li>
 <li><i>More bundled releases coming very shortly...</i></li>
 </ol>
 
