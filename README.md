@@ -10,6 +10,7 @@ Here are some of the bundled apps I pre-built as releases. Feel free to make you
 
 <ol>
 <li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
+<li><i>More bundled releases coming very shortly...</i></li>
 </ol>
 
 Installation
