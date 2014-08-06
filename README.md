@@ -30,7 +30,7 @@ Example
 <p>Here is an example of what you could do with these bundled apps. Complete documentation of usage examples/ideas are available on each app bundle release page (i.e. Automatic). If for some reason the Hazel rules aren't working for you, I've layed them out so you can set them up manually:</p>
 ------------
 <p><strong>Parking Location Reminder</strong> | Automatic<br>
-<i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>.</i></p>
+<i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>. In my case, I have it open up Apple Maps as demonstrated with the example shell script below.</i></p>
 <ul>
 <li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
 </ul>
@@ -54,9 +54,9 @@ NOTE: You can download the Google Maps HTML file with 'LocationMapURL' action. T
 <pre><code>!#/bin/sh
 # OSX NOTIFICATION
 NAME=`basename "$1"` # Gets name of file
-LAT=${NAME#*_} # Remove everything before the first underscore symbol
-LONG=${LAT%%_z*} # Remove everything up until the farthest '_z' from the right
-GEO=${LONG/_/,} # Remove underscore symbol between geocodes
+LAT=`${NAME#*_}` # Remove everything before the first underscore symbol
+LONG=`${LAT%%_z*}` # Remove everything up until the farthest '_z' from the right
+GEO=`${LONG/_/,}` # Remove underscore symbol between geocodes
 ZOOM=`19`
 
 /Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message "Just in case you were wondering, you recently parked in this location:" -contentImage "$1" -activate 'com.apple.Maps' -open "http://maps.apple.com/?q=$GEO&z=$ZOOM" -group 'automatic-park'</code></pre>
