@@ -37,8 +37,8 @@ Example
 | | Automatic | | Dropbox |
 | :-------------: | :------------- | :-------------: | :------------- |
 | <i>IF</i> | Ignition Off | <i>THEN</i> | Add file from URL |
-FILE URL: [LocationMapImageURL]
-FILE NAME: [LocationMapURL]
+FILE URL: [LocationMapImageURL]<br>
+FILE NAME: [LocationMapURL]<br>
 DROPBOX FOLDER PATH: Apps/IFTTT/Automatic
 <ul>
 <li>Hazel rules:</li>
@@ -74,9 +74,9 @@ Shoutouts
 <i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
 <p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
 <i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
-<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Dropbox</a></strong> | REQUIRED <br>
+<p><strong><a href="http://www.dropbox.com" target="_blank">Dropbox</a></strong> | REQUIRED <br>
 <i>Need I say more about this one? </i></p>
-<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">IFTTT</a></strong> | REQUIRED <br>
+<p><strong><a href="http://www.ifttt.com" target="_blank">IFTTT</a></strong> | REQUIRED <br>
 <i>Required for triggering created files on your Dropbox that Hazel interacts with. All of these examples require a computer to be running all the time.</i></p>
 
 License
