@@ -31,7 +31,6 @@ Example
 ------------
 <p><strong>Parking Location Reminder</strong> | Automatic<br>
 <i>Description: If ignition turns off, send an OSX notification of the most recent location you parked. Downloads a map image used as the input for <code>-contentImage</code>, and opens the downloaded image using both <code>-activate</code> and <code>-open "file://$1"</code>.</i></p>
-------------
 <ul>
 <li>IFTTT Recipe <a href="#" target="_blank">(View shared receipe)</a>:</li>
 </ul>
@@ -53,7 +52,14 @@ NOTE: You can download the Google Maps HTML file with 'LocationMapURL' action. T
 <ul>
 <li>Shell script:</li>
 <pre><code>!#/bin/sh
-/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message 'Just in case you were wondering, you recently parked in this location:' -activate 'com.apple.Preview' -open "file://$1" -contentImage "$1" -group 'automatic-park'</code></pre>
+# OSX NOTIFICATION
+NAME=`basename "$1"` # Gets name of file
+LAT=${NAME#*_} # Remove everything before the first underscore symbol
+LONG=${LAT%%_z*} # Remove everything up until the farthest '_z' from the right
+GEO=${LONG/_/,} # Remove underscore symbol between geocodes
+ZOOM=`19`
+
+/Library/ScriptingAdditions/Automatic.app/Contents/MacOS/Automatic -title 'Parking Reminder' -message "Just in case you were wondering, you recently parked in this location:" -contentImage "$1" -activate 'com.apple.Maps' -open "http://maps.apple.com/?q=$GEO&z=$ZOOM" -group 'automatic-park'</code></pre>
 </ul>
 ------------
 
