@@ -10,7 +10,6 @@ Here are some of the bundled apps I pre-built as releases. Feel free to make you
 
 <ol>
 <li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
-<li><strong>Starbucks | <a href="http://www.starbucks.com" target="_blank">Website</a> | <a href="https://ifttt.com" target="_blank">IFTTT Recipe</a> | <a href="http://www.automatic.com">Release (v1.0)</a> |</strong></li>
 </ol>
 
 Installation
@@ -53,6 +52,8 @@ DROPBOX FOLDER PATH: Apps/IFTTT/Automatic
 | Copy | to folder | "Parking Reminders" |
 | Sort into subfolder | with pattern | (date created) |
 | Rename | with pattern | "Parked on (date created)(extension)" |
+<p>NOTE: Hazel rules included in the releases can include a 'function' rule that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT.</p>
+
 <ul>
 <li>Shell script:</li>
 <pre><code>!#/bin/sh
