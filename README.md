@@ -36,19 +36,23 @@ Example
 </ul>
 | | Automatic | | Dropbox |
 | :-------------: | :------------- | :-------------: | :------------- |
-| <i>IF</i> | Ignition Off | <i>THEN</i> | Download file from URL |
-NOTE: You can download the Google Maps HTML file with 'LocationMapURL' action. This way, the shell script below will allow you to open the Google map in your browser. Keep in mind, if you do not choose the 'LocationMapImageURL' action, you will not be able to use the <code>-contentImage</code> command for displaying the maps image in the notification.
+| <i>IF</i> | Ignition Off | <i>THEN</i> | Add file from URL |
+FILE URL: [LocationMapImageURL]
+FILE NAME: [LocationMapURL]
+DROPBOX FOLDER PATH: Apps/IFTTT/Automatic
 <ul>
 <li>Hazel rules:</li>
 </ul>
 | Conditions (All) | | |
 | :------------- | ------------- | -------------- |
-| Name | starts with | "parking_location" |
+| Name | starts with | "http" |
 | Kind | is | image |
 | Date Last Matched | is blank | |
 | <strong>Actions</strong> | | |
-| Name | starts with | "parking_location" |
-| Kind | is | image |
+| Run shell script | embedded script | (Or use 'parking.sh') |
+| Copy | to folder | "Parking Reminders" |
+| Sort into subfolder | with pattern | (date created) |
+| Rename | with pattern | "Parked on (date created)(extension)" |
 <ul>
 <li>Shell script:</li>
 <pre><code>!#/bin/sh
@@ -70,6 +74,10 @@ Shoutouts
 <i>The core framework developed by alloy in each of these bundled apps that allows triggering of custom OSX Notifications from the command line. The main purpose for this project.</i><br></p>
 <p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Hazel</a> by Noodlesoft</strong> | NOT REQUIRED (BUT REALLY HELPS)<br>
 <i>A must-have OSX Utility that allows you to create folder actions (on steroids) based on a wide variety of rules and a heavy-set imagination. I definitely recommend getting this utility as it will make your life infinitely times easier. But, for the sake of variety and poverty level, the same can be done with Automator and the folder actions features included in OSX.</i></p>
+<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">Dropbox</a></strong> | REQUIRED <br>
+<i>Need I say more about this one? </i></p>
+<p><strong><a href="http://www.noodlesoft.com/hazel.php" target="_blank">IFTTT</a></strong> | REQUIRED <br>
+<i>Required for triggering created files on your Dropbox that Hazel interacts with. All of these examples require a computer to be running all the time.</i></p>
 
 License
 ============
