@@ -36,9 +36,9 @@ Example
 | | Automatic | | Dropbox |
 | :-------------: | :------------- | :-------------: | :------------- |
 | <i>IF</i> | Ignition Off | <i>THEN</i> | Add file from URL |
-FILE URL: [LocationMapImageURL]<br>
-FILE NAME: [LocationMapURL]<br>
-DROPBOX FOLDER PATH: Apps/IFTTT/Automatic
+<strong>FILE URL:</strong> [LocationMapImageURL]<br>
+<strong>FILE NAME:</strong> [LocationMapURL]<br>
+<strong>DROPBOX FOLDER PATH:</strong> Apps/IFTTT/Automatic
 <ul>
 <li>Hazel rules:</li>
 </ul>
@@ -52,7 +52,7 @@ DROPBOX FOLDER PATH: Apps/IFTTT/Automatic
 | Copy | to folder | "Parking Reminders" |
 | Sort into subfolder | with pattern | (date created) |
 | Rename | with pattern | "Parked on (date created)(extension)" |
-<p>NOTE: Hazel rules included in the releases can include a 'function' rule that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT.</p>
+<p><strong>NOTE:</strong> Hazel rules included in the releases can include a 'function' rule that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT.</p>
 
 <ul>
 <li>Shell script:</li>
