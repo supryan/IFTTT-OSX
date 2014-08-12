@@ -9,7 +9,7 @@ App Releases
 Here are some of the bundled apps I pre-built as releases. Feel free to make your own with  <a href="https://github.com/alloy/terminal-notifier" target="_blank">Terminal Notifier</a> or the Xcode Project I included in this repo if you want to add to the others.
 
 <ol>
-<li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com/recipes/193804-if-ignition-turned-off-then-notify-of-the-location-on-osx-notification-center-using-hazel" target="_blank">IFTTT Recipe</a> | <a href="https://github.com/jickpictures/IFTTT-OSX/releases/tag/v1.0">Release (v1.0)</a> |</strong></li>
+<li><strong>Automatic (Driving Assistant) | <a href="http://www.automatic.com" target="_blank">Website</a> |  <a href="https://ifttt.com/recipes/193804-if-ignition-turned-off-then-notify-of-the-location-on-osx-notification-center-using-hazel" target="_blank">IFTTT Recipe</a> | <a href="https://github.com/jickpictures/IFTTT-OSX/releases/tag/v1.1">Release (v1.1)</a> |</strong></li>
 <li><i>More bundled releases coming very shortly...</i></li>
 </ol>
 
@@ -48,12 +48,14 @@ Example
 | Name | starts with | "http" |
 | Kind | is | image |
 | Date Last Matched | is blank | |
+| Date Created | is among | 1 most recent |
+| Subfolder depth | is | 2 |
 | <strong>Actions</strong> | | |
 | Run shell script | embedded script | (Or use 'parking.sh') |
-| Copy | to folder | "Parking Reminders" |
+| Copy | to folder | (enclosing folder) |
 | Sort into subfolder | with pattern | (date created) |
 | Rename | with pattern | "Parked on (date created)(extension)" |
-<p><strong>NOTE:</strong> Hazel rules included in the releases can include a 'tasking rule' that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT. Tasking rules can sometimes be necessary for running the rest of the rules under them. Common examples of these rules are always labeled similarly to: <code>/// These Subfolders ///</code>. Some of these might be required to use my pre-built rules. Check the note icon included with the rule for more information on the conditions and actions. <i>Yeah, I'm that organized.</i></p>
+<p><strong>NOTE:</strong> Hazel rules included in the releases can include a 'utility rule' that I clearly outlined for myself. These rules are always labeled with 3 slashed before and after like so: <code>/// Trash Files ///</code>. These are optional, but work to cleanup your Automatic directory and organize the downloaded files from IFTTT. Utility rules can sometimes be necessary for running the rest of the rules under them. Common examples of these rules are always labeled similarly to: <code>/// These Subfolders ///</code>. Some of these might be required to use my pre-built rules. Check the note icon included with the rule for more information on the conditions and actions. <i>I know, it's sickening; I'm that organized.</i></p>
 
 <ul>
 <li>Shell script:</li>
