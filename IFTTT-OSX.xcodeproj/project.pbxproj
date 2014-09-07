@@ -44,7 +44,7 @@
 		2081C0EB198F1E6A008D9CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081C0EA198F1E6A008D9CAD /* AppDelegate.m */; };
 		2081C0EE198F1E7D008D9CAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0F0198F1E7D008D9CAD /* MainMenu.xib */; };
 		2081C0F1198F1EC1008D9CAD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
-		2081C0F2198F1F12008D9CAD /* githubpush.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D2A198F16E700EAB658 /* githubpush.icns */; };
+		2081C0F2198F1F12008D9CAD /* uber.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20559D2A198F16E700EAB658 /* uber.icns */; };
 		2081C0F3198F2069008D9CAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2081C0F5198F2069008D9CAD /* MainMenu.xib */; };
 		20C466B41956154A00293C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C466B21956154A00293C0A /* MainMenu.xib */; };
 		20C466BA1956172700293C0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
@@ -83,7 +83,7 @@
 		20559D27198F16E700EAB658 /* githubpush.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = githubpush.icns; path = GitHub/githubpush.icns; sourceTree = SOURCE_ROOT; };
 		20559D28198F16E700EAB658 /* reddit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = reddit.icns; path = Reddit/reddit.icns; sourceTree = SOURCE_ROOT; };
 		20559D29198F16E700EAB658 /* square.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = square.icns; path = Square/square.icns; sourceTree = SOURCE_ROOT; };
-		20559D2A198F16E700EAB658 /* githubpush.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = githubpush.icns; path = GitHub/githubpush.icns; sourceTree = SOURCE_ROOT; };
+		20559D2A198F16E700EAB658 /* uber.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = uber.icns; path = Uber/uber.icns; sourceTree = SOURCE_ROOT; };
 		20559D2D198F174300EAB658 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20559D2F198F176300EAB658 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20559D34198F17BD00EAB658 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -347,7 +347,7 @@
 		2081C0BE198F1E38008D9CAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20559D2A198F16E700EAB658 /* githubpush.icns */,
+				20559D2A198F16E700EAB658 /* uber.icns */,
 				2081C0BF198F1E38008D9CAD /* Uber-Info.plist */,
 				2081C0C0198F1E38008D9CAD /* InfoPlist.strings */,
 				2081C0C3198F1E38008D9CAD /* main.m */,
@@ -704,7 +704,7 @@
 			files = (
 				2081C0C2198F1E38008D9CAD /* InfoPlist.strings in Resources */,
 				2081C0C8198F1E38008D9CAD /* Credits.rtf in Resources */,
-				2081C0F2198F1F12008D9CAD /* githubpush.icns in Resources */,
+				2081C0F2198F1F12008D9CAD /* uber.icns in Resources */,
 				2081C0F3198F2069008D9CAD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
