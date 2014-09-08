@@ -140,7 +140,7 @@
 		20A03A5519BD2BCF001F6BE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20A03A5619BD2BCF001F6BE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20A03A7619BD2C65001F6BE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		20A03A7B19BD2F05001F6BE1 /* loseit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = loseit.icns; path = ../loseit.icns; sourceTree = "<group>"; };
+		20A03A7B19BD2F05001F6BE1 /* loseit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = loseit.icns; sourceTree = "<group>"; };
 		20C466B31956154A00293C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		20C466B91956172700293C0A /* IFTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C466BD1956172700293C0A /* IFTTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFTTT-Info.plist"; sourceTree = "<group>"; };
@@ -1727,6 +1727,7 @@
 				20A03A7119BD2BCF001F6BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C466E11956172800293C0A /* Build configuration list for PBXNativeTarget "IFTTT" */ = {
 			isa = XCConfigurationList;
