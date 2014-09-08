@@ -10,7 +10,7 @@
 #import <ScriptingBridge/ScriptingBridge.h>
 #import <objc/runtime.h>
 
-NSString * const RedditNotifierBundleID = @"notifications.jickpictures.LoseIt";
+NSString * const LoseItNotifierBundleID = @"notifications.jickpictures.LoseIt";
 NSString * const NotificationCenterUIBundleID = @"com.apple.notificationcenterui";
 
 // Set OS Params
